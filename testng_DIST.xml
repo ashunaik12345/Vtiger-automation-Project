@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+  <test name="Test-Runner-1" thread-count="2" parallel="tests">
+    <classes>
+      <class name="vtiger.Organizations.TestsScripts.CreateNewOrganizationWithIndustryPom"/>
+      </classes>
+      </test>
+      
+      <test name="Test-Runner-2" thread-count="2" parallel="tests">
+    <classes>
+      <class name="vtiger.Organizations.TestsScripts.CreateNewOrganizationWithIndustryPom"/>
+      </classes>
+      </test>
+      
+</suite> <!-- Suite -->

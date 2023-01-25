@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Orgaanization createdAmdocs589]]>
+    </line>
+    <line>
+      <![CDATA[organization lookup image is clicked]]>
+    </line>
+    <line>
+      <![CDATA[organization craetedAmdocs589]]>
+    </line>
+    <line>
+      <![CDATA[contact is clicked]]>
+    </line>
+    <line>
+      <![CDATA[contact look up image is clicked]]>
+    </line>
+    <line>
+      <![CDATA[organization createdAmdocs589]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="544771" started-at="2023-01-20T10:43:57Z" finished-at="2023-01-20T10:53:02Z">
+    <groups>
+      <group name="Regresstionsuite">
+        <method signature="CreateContactWithOrganizationTest.createContactWithOrganizations()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContactWithOrganizationTest@5d624da6]" name="createContactWithOrganizations" class="vtiger.Contacts.TestScripts.CreateContactWithOrganizationTest"/>
+      </group> <!-- Regresstionsuite -->
+    </groups>
+    <test name="Default test" duration-ms="544771" started-at="2023-01-20T10:43:57Z" finished-at="2023-01-20T10:53:02Z">
+      <class name="vtiger.Contacts.TestScripts.CreateContactWithOrganizationTest">
+        <test-method status="PASS" signature="bsConfig()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContactWithOrganizationTest@5d624da6]" name="bsConfig" is-config="true" duration-ms="16" started-at="2023-01-20T16:13:57Z" finished-at="2023-01-20T16:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method status="PASS" signature="bcConfig()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContactWithOrganizationTest@5d624da6]" name="bcConfig" is-config="true" duration-ms="225819" started-at="2023-01-20T16:13:57Z" finished-at="2023-01-20T16:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method status="PASS" signature="bmConfig()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContactWithOrganizationTest@5d624da6]" name="bmConfig" is-config="true" duration-ms="82052" started-at="2023-01-20T16:17:43Z" finished-at="2023-01-20T16:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method status="PASS" signature="createContactWithOrganizations()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContactWithOrganizationTest@5d624da6]" name="createContactWithOrganizations" duration-ms="208326" started-at="2023-01-20T16:19:05Z" finished-at="2023-01-20T16:22:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Orgaanization createdAmdocs589]]>
+            </line>
+            <line>
+              <![CDATA[organization lookup image is clicked]]>
+            </line>
+            <line>
+              <![CDATA[organization craetedAmdocs589]]>
+            </line>
+            <line>
+              <![CDATA[contact is clicked]]>
+            </line>
+            <line>
+              <![CDATA[contact look up image is clicked]]>
+            </line>
+            <line>
+              <![CDATA[organization createdAmdocs589]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrganizations -->
+        <test-method status="PASS" signature="amConfig()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContactWithOrganizationTest@5d624da6]" name="amConfig" is-config="true" duration-ms="1008" started-at="2023-01-20T16:22:34Z" finished-at="2023-01-20T16:22:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method status="FAIL" signature="acConfig()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContactWithOrganizationTest@5d624da6]" name="acConfig" is-config="true" duration-ms="0" started-at="2023-01-20T16:22:35Z" finished-at="2023-01-20T16:22:35Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to stop.
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-28SANPA', ip: '192.168.220.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [71e8ecdfb86ac81a394c6e26c6d6b036, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:51287}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51287/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71e8ecdfb86ac81a394c6e26c6d6b036]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-28SANPA', ip: '192.168.220.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [71e8ecdfb86ac81a394c6e26c6d6b036, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:51287}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51287/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71e8ecdfb86ac81a394c6e26c6d6b036
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:132)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:443)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:280)
+	at vtiger.GenericUtilities.BaseClass.acConfig(BaseClass.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:232)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:115)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-28SANPA', ip: '192.168.220.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: unknown
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
+	... 30 more
+Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-28SANPA', ip: '192.168.220.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:174)
+	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:114)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:122)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method status="SKIP" signature="asConfig()[pri:0, instance:vtiger.Contacts.TestScripts.CreateContactWithOrganizationTest@5d624da6]" name="asConfig" is-config="true" duration-ms="0" started-at="2023-01-20T16:23:09Z" finished-at="2023-01-20T16:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- vtiger.Contacts.TestScripts.CreateContactWithOrganizationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
